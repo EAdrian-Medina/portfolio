@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Medina Adrián Enrique</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .subtitulo {
+            color: #7f8c8d;
+            font-size: 1.3em;
+            font-weight: normal;
+        }
+        
+        .seccion {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin: 15px 0 8px 0;
+        }
+        
+        .contacto {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 15px 0;
+        }
+        
+        .contacto-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .experiencia-item, .formacion-item {
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .empresa {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .fecha {
+            color: #7f8c8d;
+            font-style: italic;
+            margin: 5px 0;
+        }
+        
+        ul {
+            list-style-position: inside;
+            margin-left: 15px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+            padding-left: 10px;
+        }
+        
+        .habilidades-lista {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .habilidad {
+            background: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .referencia {
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .contacto {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MEDINA ADRIAN ENRIQUE</h1>
+            <p class="subtitulo">Técnico de PC & Analista de Sistemas</p>
+        </header>
+
+        <section class="seccion">
+            <h2>SOBRE MÍ</h2>
+            <p>Soy una persona autodidacta. Creo en el esfuerzo para llevar el trabajo de forma eficaz hacia la zona de lo eficiente. Toda la vida me interesó la informática y la administración. Dedique toda mi vida al aprendizaje de los mismos.</p>
+        </section>
+
+        <section class="seccion">
+            <h2>CONTACTO</h2>
+            <div class="contacto">
+                <div class="contacto-item">📍 Mariano Acosta, Merlo, Buenos Aires</div>
+                <div class="contacto-item">📧 adrianenriquemedina1993@gmail.com</div>
+                <div class="contacto-item">📱 1166404810</div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>EXPERIENCIA LABORAL</h2>
+            
+            <div class="experiencia-item">
+                <h3>ADMINISTRACIÓN</h3>
+                <p class="empresa">Sub director de depósito - Municipalidad de Merlo</p>
+                <p class="fecha">2013 - 2015</p>
+                <ul>
+                    <li>Administración de depósitos</li>
+                    <li>Stock de artículos varios, alta y baja de los mismos</li>
+                    <li>Administración y coordinación del personal de depósito</li>
+                    <li>Carga y descarga de los artículos</li>
+                    <li>Atención al público</li>
+                    <li>Limpieza y mantenimiento de los depósitos</li>
+                </ul>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>ARMADO Y REPARACIÓN DE PC</h3>
+                <p class="empresa">Técnico independiente</p>
+                <p class="fecha">Actualmente</p>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>PASANTE EN ADMINISTRACIÓN</h3>
+                <p class="empresa">Instituto Domingo Faustino Sarmiento</p>
+                <ul>
+                    <li>Pasante en administración en secretaría</li>
+                </ul>
+                <div class="referencia">
+                    <strong>Referencia:</strong> 1132313392 - Secretaria Patricia
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>FORMACIÓN</h2>
+            
+            <div class="formacion-item">
+                <h3>TECNICATURA SUPERIOR EN ANÁLISIS DE SISTEMAS</h3>
+                <p class="empresa">Analista de Sistemas</p>
+                <p>Inicié mi carrera en 2019 como estudiante de Análisis de Sistemas. Actualmente estoy cursando la carrera.</p>
+            </div>
+
+            <div class="formacion-item">
+                <h3>TÉCNICO DE PC</h3>
+                <p class="empresa">Punto Digital de Marcos Paz</p>
+                <p class="fecha">Graduado: 16/05/2022</p>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>HABILIDADES TÉCNICAS</h2>
+            <div class="habilidades-lista">
+                <span class="habilidad">Programador básico en Java</span>
+                <span class="habilidad">Inglés intermedio</span>
+                <span class="habilidad">Office intermedio</span>
+                <span class="habilidad">Armado de PC</span>
+                <span class="habilidad">Reparación de PC</span>
+                <span class="habilidad">Instalación de redes</span>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>HABILIDADES PERSONALES</h2>
+            <div class="habilidades-lista">
+                <span class="habilidad">Trabajo en equipo</span>
+                <span class="habilidad">Coordinación de equipos</span>
+                <span class="habilidad">Proactivo</span>
+                <span class="habilidad">Empatía</span>
+                <span class="habilidad">Compañerismo</span>
+                <span class="habilidad">Resolución de problemas</span>
+                <span class="habilidad">Escucha activa</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
